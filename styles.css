@@ -1,0 +1,17 @@
+body {background-color: lightslategray;,
+    font:serif;
+}
+
+h2{
+    font-family: Georgia;
+}
+
+h1{
+    font-family: "Bookman Old Style";
+}
+
+menu{
+    background-color: aliceblue;
+    border-color: black;
+    border-radius: 10px;
+}
