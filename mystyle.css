@@ -1,0 +1,114 @@
+*{
+	text-align:center;
+}
+
+
+
+body {
+	
+	border-radius: 5px;
+	background-color: brown;
+	color: white;
+	padding-bottom:50px;
+
+}
+
+img.left {
+	float:left;
+	margin-right:15px;
+}
+
+div {
+	text-align:left;
+}
+ul {
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: navy
+}
+
+li {
+	float: left;
+}
+a {
+	color: white;
+}
+li a, .menubutton {
+	display:inline-block;
+	color:white;
+	text-align:center;
+	padding: 14px 16px;
+    text-decoration:none;
+}
+
+li a:hover, .menu:hover .menubutton{
+	background-color:brown;;
+}
+
+li.menu {
+	display: inline-block;
+}
+
+.menu-content {
+	display:none;
+	position:absolute;
+	background-color:navy;
+	min-width:262px;
+	
+}
+
+.menu-content a {
+	color: white;
+	padding: 10px 15px;
+	text-decoration: none;
+	display:block;
+	text-align:center;
+}
+
+.menu-content a:hover {
+	background-color:mediumblue;
+}
+
+.menu:hover .menu-content {
+	display:block;
+}
+
+.current {
+	background-color:brown;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: fantasy;
+	font-style: oblique 50deg;
+	font-size: xx-large;
+}
+
+h2 {
+	font-size: 40px;
+	font-family: cursive;
+	color: white;
+}
+
+h3 {
+	font-size: 30px;
+	font-family:Snell Roundhand, cursive;
+	color: #E04601;
+}
+
+p {
+	font-size: 20px;
+	padding-right: 150px;
+	padding-left:150px;
+}
+
+p.left {
+	text-align:left;
+}
+
+p.description {
+	font-size: 15px;
+	font-style:italic;
+}
